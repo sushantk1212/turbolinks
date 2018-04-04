@@ -11,7 +11,7 @@ if (!defined('WPINC')) {die;}
 
 function turbolinks_function_new() {
 
-	wp_register_script( 'turbolinks', plugin_dir_url( __FILE__ ) . '/js/turbolinks.js', NULL, '', true );
+	wp_register_script( 'turbolinks', plugin_dir_url( __FILE__ ) . '/turbolinks.js', NULL, '', true );
 	wp_enqueue_script( 'turbolinks' );
 }
 
